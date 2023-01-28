@@ -6,6 +6,7 @@ pipeline {
                 echo 'Hello World'
                 sh 'mkdir abc'
                 sh 'mkdir moon'
+		sh 'mkdir stars'
                 sh 'ls -lart'
                 sh 'pwd'
             }
