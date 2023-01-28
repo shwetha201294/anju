@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 sh 'mkdir abc'
+                sh 'mkdir moon'
                 sh 'ls -lart'
                 sh 'pwd'
             }
